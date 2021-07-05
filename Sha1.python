@@ -1,0 +1,6 @@
+import hashlib
+hash_object = hashlib.sha1(b'Hello World')
+hex_dig = hash_object.hexdigest()
+print(hex_dig)
+
+#output:0a4d55a8d778e5022fab701977c5d840bbc486d0
