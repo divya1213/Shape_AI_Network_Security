@@ -1,0 +1,6 @@
+import hashlib
+hash_object = hashlib.sha256(b'Divya')
+hex_dig = hash_object.hexdigest()
+print(hex_dig)
+
+#output:37592aed9803cced831f4e13a28bfff2da153def17f7e2d3b838e9d70ceae0da
